@@ -1,0 +1,162 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        #sign:hover{
+            background-color: blueviolet;
+            color: rgb(245, 243, 243);
+            border:solid rgb(248, 247, 247);
+        }
+        #sign{
+           
+            color: blueviolet;
+            border:solid rgb(148, 45, 131);
+            background-color: rgb(255, 255, 255);
+        }
+        
+        #nav1{
+        position: fixed;
+           margin-top: 0;
+            
+        }
+        a{color: blueviolet;}
+        #p1{background-color: rgba(240, 248, 255, 0.781) ;}
+    </style>
+    </head>
+    <body>
+        
+        <nav id="nav1" class="navbar  navbar-expand-sm container">
+            <div class="container-fluid">
+            <a class="navbar-brand te" href="#">RAED F</a>
+            <button class="navbar-toggler bg-dark navbar-dark" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse "  id="collapsibleNavbar">
+              <ul class="navbar-nav  " >
+                <li class="nav-item ml-4">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item ml-5">
+                    <a class="nav-link" href="#">Services</a>
+                  </li>
+                  <li class="nav-item ml-4">
+                    <a class="nav-link" href="#">Testimonials</a>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link ml-4" href="#">Team</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link ml-4" href="#">Pircing</a>
+                </li>
+                <li class="nav-item ml-4">
+                  <a class="nav-link" href="#">Faq</a>
+                </li>
+              </ul>
+            </div>
+            <div id="s1" class="navbar-nav navbar-right" style="padding-left: 15%;">
+               <a id="sign" href="#" type="button" class="nav-link btn " >Sign In</a>
+              </div> 
+            </div>
+            
+          </nav>
+          <div id="p1" class="container-fluid row" >
+              <div class="conatiner col-6" style="padding-left: 10%;">
+            <p style="padding-top:25%;font-size:xx-large;font-weight: bolder;font-family:'Times New Roman', Times, serif;">Great software is built with amazing
+developers</p>
+            <pre style="padding: top 15%; line-height: 50px;">We help build and manage a team of world-class
+developers to bring your vision to life</pre>
+            <form action="#" class="row"style="height: 100px;">
+                <div class="container col-8">
+                <input type="email" placeholder="subscribe Newslettre" required class="form-control "></div>
+                <div class="container col-4"> <button type="submit" class="btn btn-primary ">Subscribe</button></div>
+            </form>
+            <div class="container" style="display: inline-block;">
+            <span style="height:50px;color: gray;opacity: 0.5;padding-right: 40px;width: 150px;">Powred BY :</span>
+            <img src="data:image/png;base64,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" alt="logo" style="opacity: 0.5;height:50px;width: 150px;padding-right: 40px;mix-blend-mode: darken;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM9q9i-ZnRKXdfGfn3hFKivMNHbh6hLf0D_Q&usqp=CAU" alt="logo" style="height:50px; width: 80px;mix-blend-mode: darken;">
+              </div></div>
+              <div class="conatiner col-6">
+             <img src="https://agencymain.gatsbyjs.io/static/3afdfb5be55e0037082983dac4cfe867/4cfbe/banner-image-1-1.png" alt="photo" style="width:100vh;mix-blend-mode: darken;">
+            </div>
+          </div>
+        
+         
+
+
+        <h3 style=" text-align: center;color: blueviolet;margin-top: 8%;">Qualities Features</h3>
+        <h2 style="font-weight: bolder;text-align: center;margin-top: 8%;">Meet exciting feature of app</h2>
+
+        <div class="container " style="margin-top: 15%;">
+        <div class="container row">
+            <div class="card container  col-3"style="border: none;" >
+              <img class="card-img-top" src="1.png" alt="Card image" style=" align-self: center;width: 150px; " >
+              <div class="card-body">
+                <h5 class="card-title"style="text-align: center;">Unlimited Customization</h5>
+                <p class="card-text"style="text-align: center;">Get your blood tests delivered at home collect a sample from the your blood tests.</p>
+                
+              </div>
+            </div>
+            <div class="card container col-3"style="border: none;" >
+                <img class="card-img-top" src="2.png" alt="Card image"  style=" align-self: center;width: 150px; ">
+                <div class="card-body">
+                  <h4 class="card-title"style="text-align: center;">Vector shape & resizable</h4>
+                  <p class="card-text"style="text-align: center;">Get your blood tests delivered at home collect a sample from the your blood tests.</p>
+                 
+                </div>
+              </div>
+              <div class="card container col-3" style="border: none;">
+                <img class="card-img-top" src="3.png" alt="Card image"  style=" align-self: center;width: 150px;" >
+                <div class="card-body">
+                  <h4 class="card-title"style="text-align: center;">Editing freedom</h4>
+                  <p class="card-text"style="text-align: center;">Get your blood tests delivered at home collect a sample from the your blood tests.</p>
+                  
+                </div>
+              </div>
+              <div class="card container col-3" style="border: none;">
+                <img class="card-img-top" src="4.png" alt="Card image"   style=" align-self: center;width: 150px;" >
+                <div class="card-body">
+                  <h4 class="card-title" style="text-align: center;" >Best Award history</h4>
+                  <p class="card-text"style="text-align: center;">Get your blood tests delivered at home collect a sample from the your blood tests.</p>
+                 
+                </div>
+              </div>
+        </div>
+
+<div class="container row">
+    <div class="container col-6">
+        <img src="https://agencymain.gatsbyjs.io/static/boost-1-1-cbbaec359e68e7a94c96ada036d4ebc4.png" alt="photo" style="width: 90vh;">
+    </div>
+    <div class="container col-6">
+        <h3 style="font-weight: bolder;margin-top:25%;padding-left: 8%;padding-right: 7%;">Boost your agencies by choosing Ninja Developers</h3>
+        <p style="color: darkgray;padding-top: 8%;padding-left: 5%;padding-right: 7%;padding-bottom: 15%;">Create custom landing pages with Shades that convert more visitors than any website, no coding required.</p>
+        <ul>
+            <li>Unlimited design possibility</li>
+            <li>Completely responsive features</li>
+            <li>Easy to customize plugins</li>
+            
+        
+        </ul>
+        <a href="#" style="color: darkmagenta;padding-left: 5%;">Learn more ></a>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>
